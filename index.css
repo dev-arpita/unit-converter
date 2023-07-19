@@ -42,8 +42,11 @@ body {
     border: 2px solid #B295FF;
     border-radius: 5px;
     margin: 20px;
+    outline: 0;
 }
-
+#input-el:focus {
+    border: 6px solid #B295FF;
+}
 #convert-btn {
     width: 120px;
     padding: 10px;
