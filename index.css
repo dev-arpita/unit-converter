@@ -7,13 +7,14 @@ body {
 }
 
 .container {
-    border: 3px solid #B295FF;
+    border-radius: 10px ;
     max-width: 600px;
-    margin: 0 auto
+    margin: 40px auto 0;
+    background: #6943FF;
+    overflow: hidden;
 }
 
 .user-section {
-    background: #6943FF;
     width: 100%;
 }
 
@@ -27,6 +28,9 @@ body {
     flex-direction: column;
 }
 
+.main-heading {
+    margin-top: 30px;
+}
 #input-el {
     background: initial;
     color: inherit;
@@ -47,7 +51,8 @@ body {
     background: #fff;
     border-radius: 5px;
     border: 0;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    cursor: pointer;
 }
 
 /*conversion-sec*/
